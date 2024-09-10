@@ -62,6 +62,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 32);
 			this.textBox1.TabIndex = 0;
+			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox2
 			// 
@@ -70,6 +71,7 @@
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(100, 32);
 			this.textBox2.TabIndex = 0;
+			this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox3
 			// 
@@ -78,6 +80,7 @@
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(100, 32);
 			this.textBox3.TabIndex = 0;
+			this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox4
 			// 
@@ -86,6 +89,7 @@
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(100, 32);
 			this.textBox4.TabIndex = 0;
+			this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox5
 			// 
@@ -94,6 +98,7 @@
 			this.textBox5.Name = "textBox5";
 			this.textBox5.Size = new System.Drawing.Size(100, 32);
 			this.textBox5.TabIndex = 0;
+			this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox6
 			// 
@@ -102,6 +107,7 @@
 			this.textBox6.Name = "textBox6";
 			this.textBox6.Size = new System.Drawing.Size(100, 32);
 			this.textBox6.TabIndex = 0;
+			this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox7
 			// 
@@ -110,6 +116,7 @@
 			this.textBox7.Name = "textBox7";
 			this.textBox7.Size = new System.Drawing.Size(100, 32);
 			this.textBox7.TabIndex = 0;
+			this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox8
 			// 
@@ -118,6 +125,7 @@
 			this.textBox8.Name = "textBox8";
 			this.textBox8.Size = new System.Drawing.Size(100, 32);
 			this.textBox8.TabIndex = 0;
+			this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox9
 			// 
@@ -126,6 +134,7 @@
 			this.textBox9.Name = "textBox9";
 			this.textBox9.Size = new System.Drawing.Size(100, 32);
 			this.textBox9.TabIndex = 0;
+			this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox10
 			// 
@@ -134,6 +143,7 @@
 			this.textBox10.Name = "textBox10";
 			this.textBox10.Size = new System.Drawing.Size(100, 32);
 			this.textBox10.TabIndex = 0;
+			this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox11
 			// 
@@ -142,6 +152,7 @@
 			this.textBox11.Name = "textBox11";
 			this.textBox11.Size = new System.Drawing.Size(100, 32);
 			this.textBox11.TabIndex = 0;
+			this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// textBox12
 			// 
@@ -150,13 +161,14 @@
 			this.textBox12.Name = "textBox12";
 			this.textBox12.Size = new System.Drawing.Size(100, 32);
 			this.textBox12.TabIndex = 0;
+			this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.button1.Location = new System.Drawing.Point(113, 280);
+			this.button1.Location = new System.Drawing.Point(44, 265);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(143, 46);
+			this.button1.Size = new System.Drawing.Size(165, 73);
 			this.button1.TabIndex = 1;
 			this.button1.Text = "СТАРТ";
 			this.button1.UseVisualStyleBackColor = true;
@@ -166,9 +178,9 @@
 			// 
 			this.groupBox1.Controls.Add(this.label1);
 			this.groupBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.groupBox1.Location = new System.Drawing.Point(412, 243);
+			this.groupBox1.Location = new System.Drawing.Point(348, 243);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(279, 125);
+			this.groupBox1.Size = new System.Drawing.Size(343, 125);
 			this.groupBox1.TabIndex = 2;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Розв\'язок";
@@ -277,7 +289,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(740, 402);
+			this.ClientSize = new System.Drawing.Size(740, 384);
 			this.Controls.Add(this.label10);
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.label7);
@@ -305,7 +317,7 @@
 			this.MaximizeBox = false;
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Form1";
+			this.Text = "Розв\'язання СЛАР3 методом Гаусса";
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
 			this.ResumeLayout(false);
